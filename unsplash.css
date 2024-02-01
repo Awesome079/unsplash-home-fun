@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(255,255,255);
+}
+
+ .gold{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid rgb(255,255,255);
+    position: static;
+
+}
+
+.gold101 img{
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.gold101 img:hover{
+    cursor: pointer;
+}
+
+.gold201{
+    display: flex;
+    width: 15cm;
+    height: 1.3cm;
+    background-color: rgb(238,238,238);
+    border-radius: 1cm;
+    padding: 10px;
+}
+
+.gold201 img{
+    height: 30px;
+    width: 30px;
+}
+.gold201 input{
+    background-color:rgb(238,238,238);
+    border: 30px;
+    height: 0.7cm;
+    padding: 2px;
+    width: 13cm;
+}
+.gold201 img :hover{
+    cursor: pointer;
+}
+
+
+.gold301{
+    display: flex;
+    margin-top: 20px;
+    margin-right: 50px;
+    gap:20px;
+
+    
+}
+ .gold301 img{
+    height: 30px;
+    width: 40px;
+ }
+.gold301 h4:nth-child(3){
+    color: blue;
+}
+
+.gold301 h4:hover{
+    cursor: pointer;
+}
+.gold301 button{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 1px solid rgb(238,238,238);
+    padding: 3px;
+    border-radius:2px;
+    margin-right: 10px;
+}
+
+.gold301 button:hover{
+    border-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+

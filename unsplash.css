@@ -8,8 +8,10 @@
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    border-bottom: 1px solid rgb(255,255,255);
-    position: static;
+    border-bottom: 1px solid gray;
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
 
 }
 
@@ -17,6 +19,7 @@
     width: 60px;
     height: 60px;
     border-radius: 5px;
+    gap: 20px;
 }
 
 .gold101 img:hover{
@@ -81,13 +84,23 @@
     border-color: black;
 }
 
+.cway{
+    padding-top: 110px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* grid-template-rows: minmax(300px, auto); */
+    gap: 4px;
+    
+}
 
+.cway div{
+    padding: 30px;
+    background-color: whitesmoke;
+    /* width: 90%; */
+}
 
-
-
-
-
-
-
+.cway img{
+    width: 90%;
+}
 
 
